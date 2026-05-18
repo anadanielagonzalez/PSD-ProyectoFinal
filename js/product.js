@@ -1,17 +1,17 @@
 const PRODUCTS = [
   {
-  name: "Sweet Dolphin",
+  name: "Dulce Delfín",
   price: "$25.00",
-  description: "A vibrant handmade piñata designed to bring color, excitement, and joy to any celebration, making it the perfect centerpiece for unforgettable party moments.",
+  description: "Una piñata vibrante hecha a mano, diseñada para llenar de color, emoción y alegría cualquier celebración, para crear momentos inolvidables en la fiesta.",
   image: "../assets/pinata-dolphin.png",
   imgdata1: "../assets/caa.png",
   imgdata2: "../assets/dee.png",
   primaryColor: "#0677DB",
   },
   {
-  name: "Magic Turtle",
+  name: "Tortuga Mágica",
   price: "$28.00",
-  description: "A charming and lively piñata that transforms any space into a celebration, adding a burst of color and happiness to your event.",
+  description: "Una piñata encantadora y alegre que transforma cualquier espacio en una celebración, llenando tu evento de color y felicidad.",
   image: "../assets/pinata-turtle.png",
   imgdata1: "../assets/cat.png",
   imgdata2: "../assets/det.png",

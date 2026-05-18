@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <title>PSD-ProyectoFinal</title>
+    <link rel="stylesheet" href="../css/cart.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+    <section id="carrito-de-compras">
+        <h1>Shopping Cart</h1>
+
+        <div class="tablas">
+            <div>
+            <table>
+                <tr>
+                    <th class="title">Products</th>
+                    <th class="title">Quantity</th>
+                    <th class="title">Total</th>
+                    <th class="title">Action</th>
+                </tr>
+                <tr>
+                    <td colspan="4" >
+                        <div class="linea"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="cantidad">
+                            <button class="mas">+</button>
+                            <span>1</span>
+                            <button class="menos">−</button>
+                        </div>
+                    </td>
+                    <td></td>
+                    <td><button class="delete"><img class="basura" src="../assets/trash.png" alt="Icono de basura"></button></td>
+                </tr>
+            </table>
+
+            <button class="actualizar">Update Cart</button>
+            </div>
+        <table>
+            <tr>
+                <th class="title-resumen">Order Summary</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Sub Total</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Delivery Fee</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <div class="linea-espacio"></div>
+                </td>
+            </tr>
+            <tr>
+                <td class="total">Total</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="2" >
+                    <a href="../html/checkout.html">
+                        <button class="comprar">Checkout Now</button>
+                    </a>
+                    
+                </td>
+            </tr>
+        </table>
+        </div>
+        
+    </section>
+    </main>
+
+    <script defer src="../js/product.js"></script>
+    <script defer src="../js/main.js"></script>
+
+    <footer>
+        <button class="pie">
+            © 2026 Blue Fiesta. Made in Mexico.
+        </button>
+    </footer>
+
+</body>
+
+</html>

@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blue Fiesta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
     <header class="site-header">
-        <a class="logo-link" href="index.html" aria-label="Blue Fiesta home">
+        <a class="logo-link" href="index.html" aria-label="Inicio de Blue Fiesta">
             <img src="../Assets/logo.png" alt="Blue Fiesta logo" class="logo">
         </a>
 
         <div class="header-center">
             <form class="search-form" action="#" role="search">
-                <label class="sr-only" for="site-search">Search</label>
-                <input id="site-search" type="search" name="search" placeholder="Search">
+                <label class="sr-only" for="site-search">Buscar</label>
+                <input id="site-search" type="search" name="buscar" placeholder="Buscar">
             </form>
 
-            <nav class="main-nav" aria-label="Main navigation">
-                <a href="index.html" class="active">Home</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="products.html">Products</a>
-                <a href="cart.html">Cart</a>
+            <nav class="main-nav" aria-label="Navegación principal">
+                <a href="index.html" class="active">Inicio</a>
+                <a href="aboutus.html">Sobre Nosotros</a>
+                <a href="products.html">Productos</a>
+                <a href="cart.html">Carrito</a>
             </nav>
         </div>
 
@@ -32,22 +35,24 @@
     <main class="home-page">
         <section class="hero">
             <div class="hero-copy">
-                <p class="eyebrow">Pi&ntilde;atas with a Purpose</p>
+                <p class="eyebrow">Piñatas con Propósito</p>
                 <h1>Blue Fiesta</h1>
-                <p class="hero-text">Makes every pi&ntilde;ata<br>a step toward ocean<br>conservation.</p>
+                <p class="hero-text">Cada piñata es<br>un paso hacia la<br>conservación del mar.</p>
 
                 <div class="hero-actions">
-                    <a href="products.html" class="btn btn-primary">Shop Now</a>
-                    <a href="aboutus.html" class="btn btn-secondary">Contact Us</a>
+                    <a href="products.html" class="btn btn-primary">Comprar Ahora</a>
+                    <a href="aboutus.html" class="btn btn-secondary">Contáctanos</a>
                 </div>
             </div>
 
-            <img src="../Assets/home.jpg" alt="Children smiling together outdoors" class="hero-image">
+            <img src="../Assets/home.jpg" alt="Niños sonriendo juntos al aire libre" class="hero-image">
         </section>
     </main>
 
-    <footer class="site-footer">
-        <p>&copy; 2026 Blue Fiesta. Made in Mexico.</p>
+    <footer>
+        <button class="pie">
+            &copy; 2026 Blue Fiesta. Hecho en México.
+        </button>
     </footer>
 </body>
 </html>

@@ -6,7 +6,7 @@ body {
     margin: 0;
     min-height: 100vh;
     font-family: "Poppins", Arial, sans-serif;
-    color: #003754;
+    color: #ffffff;
     background: #ffffff;
 }
 
@@ -114,87 +114,47 @@ a {
     box-shadow: 0 2px 8px rgba(18, 64, 97, 0.18);
 }
 
-.home-page {
-    padding: 45px 46px 0;
+main {
+    padding: 10px 17px 0;
 }
 
-.hero {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 348px minmax(650px, 1fr);
-    align-items: center;
-    gap: 46px;
+.about-hero {
+    min-height: 428px;
+    padding: 38px 32px;
+    display: flex;
+    align-items: flex-start;
+    border-radius: 9px;
+    background-image: linear-gradient(90deg, rgba(0, 55, 84, 0.62), rgba(0, 55, 84, 0.08)), url("../Assets/aboutus.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
 }
 
-.hero-copy {
-    padding-top: 28px;
+.about-content {
+    width: 430px;
+    max-width: 100%;
 }
 
-.eyebrow {
-    margin: 0 0 8px;
+.about-content h1 {
+    margin: 0 0 14px;
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: 800;
+}
+
+.about-content p {
+    margin: 0 0 6px;
     font-size: 16px;
-    font-weight: 700;
-    color: #003754;
-}
-
-.hero h1 {
-    margin: 0 0 4px;
-    color: #04b0c1;
-    font-size: 62px;
-    line-height: 1;
-    font-weight: 900;
-    letter-spacing: 0;
-    text-shadow: 0 3px 4px rgba(18, 64, 97, 0.24);
-}
-
-.hero-text {
-    margin: 0;
-    color: #003754;
-    font-size: 31px;
-    line-height: 1.42;
+    line-height: 1.32;
     font-weight: 400;
 }
 
-.hero-actions {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    gap: 13px;
+.about-content p:last-child {
+    margin-top: 22px;
 }
 
-.btn {
-    width: 167px;
-    height: 37px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 999px;
-    font-size: 13px;
-    font-weight: 700;
-    text-decoration: none;
-    box-shadow: 0 3px 4px rgba(18, 64, 97, 0.23);
-}
-
-.btn-primary {
-    border: 2px solid #04b0c1;
-    background: #04b0c1;
-    color: #ffffff;
-}
-
-.btn-secondary {
-    border: 2px solid #04b0c1;
-    background: #ffffff;
-    color: #197592;
-}
-
-.hero-image {
-    width: 100%;
-    height: 353px;
-    display: block;
-    object-fit: cover;
-    object-position: center 46%;
-    border-radius: 9px;
-    box-shadow: 0 16px 30px rgba(18, 64, 97, 0.25);
+.about-content strong {
+    font-weight: 800;
 }
 
 button.pie {

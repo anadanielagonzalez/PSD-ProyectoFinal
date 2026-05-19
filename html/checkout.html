@@ -9,8 +9,26 @@
 
 </head>
 <body>
-    <header>
+    <header class="site-header">
+        <a class="logo-link" href="index.html" aria-label="Inicio de Blue Fiesta">
+            <img src="../Assets/logo.png" alt="Blue Fiesta logo" class="logo">
+        </a>
 
+        <div class="header-center">
+            <form class="search-form" action="#" role="search">
+                <label class="sr-only" for="site-search">Buscar</label>
+                <input id="site-search" type="search" name="buscar" placeholder="Buscar">
+            </form>
+
+            <nav class="main-nav" aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a href="aboutus.html">Sobre Nosotros</a>
+                <a href="products.html" >Productos</a>
+                <a href="cart.html" class="active">Carrito</a>
+            </nav>
+        </div>
+
+        <div class="profile-circle" aria-hidden="true"></div>
     </header>
     <main>
     <section id="checkout">
@@ -38,20 +56,20 @@
         </div>
     </div>
     <div>
-        <form action="../html/orderconfirmation.html">
+        <form class="form-checkout" action="../html/orderconfirmation.html">
             <label>Nombre en la tarjeta</label>
-            <input type="text" placeholder="Nombre del titular de la tarjeta">
+            <input class="checkout-input" type="text" placeholder="Nombre del titular">
             <label>Número de tarjeta</label>
-            <input type="text" placeholder="xxxx - xxxx - xxxx - xxxx">
+            <input class="checkout-input" type="text" placeholder="xxxx - xxxx - xxxx - xxxx">
             <div class="ct">
                 <label>CVV</label>
-                <label>Fecha de vencimiento de la tarjeta</label>
+                <label>Fecha de vencimiento</label>
             </div>
             <div class="cd">
                 <input class="cv" type="text" placeholder="xxx">
                 <input class="date" type="text" placeholder="MM - AAAA">
             </div>
-            <input type="submit" value="Proceder al pago">
+            <input class="submit-btn" type="submit" value="Proceder al pago">
         </form>
     </div>
     </section>
